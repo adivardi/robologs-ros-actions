@@ -5,10 +5,11 @@ This Action saves rosbag metadata to a json file.
 ## Getting started
 
 1. Setup a virtual environment specific to this project and install development dependencies, including the `roboto` CLI: `./scripts/setup.sh`
-2. Build Docker image: `./scripts/build.sh`
-3. Run Action image locally: `./scripts/run.sh <path-to-input-data-directory>`
-4. Run tests: `./scripts/test.sh`
-5. Deploy to Roboto Platform: `./scripts/deploy.sh`
+2. Enter venv: `source .venv/`
+3. Build Docker image: `./scripts/build.sh`
+4. Run Action image locally: `./scripts/run.sh <path-to-input-data-directory>`
+5. Run tests: `./scripts/test.sh`
+6. Deploy to Roboto Platform: `./scripts/deploy.sh`
 
 ## Action configuration file
 
